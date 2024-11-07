@@ -1,0 +1,36 @@
+.number-grid {
+  display: flex;
+  flex-direction: column; /* Mantenemos la dirección vertical */
+  gap: 10px;
+  margin: 20px; /* Espacio alrededor del grid */
+  padding: 10px; /* Padding interno para el grid */
+  border: 2px solid #4CAF50; /* Borde para el grid */
+  border-radius: 8px; /* Bordes redondeados */
+  background-color: #f9f9f9; /* Color de fondo */
+  max-width: 400px; /* Ancho máximo para el grid */
+  margin-left: auto; /* Centrar el grid horizontalmente */
+  margin-right: auto; /* Centrar el grid horizontalmente */
+}
+
+.number-row {
+  display: flex;
+  justify-content: center; /* Centrar los botones horizontalmente */
+}
+
+.number-row button {
+  
+  padding: 15px; /* Aumentar el padding para botones más grandes */
+  font-size: 18px; /* Aumentar el tamaño de fuente */
+  cursor: pointer;
+  background-color: #4CAF50;
+  background-position: center;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%; /* Hacer el botón ocupar todo el ancho */
+  transition: background-color 0.3s; /* Efecto de transición */
+}
+
+.number-row button:hover {
+  background-color: #45a049;
+}

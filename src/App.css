@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.number-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+  gap: 5px;
+  justify-content: center;
+  margin: 10px 0;
+  background-color: blue;
+  
+
+button {
+  width: 30px;
+  height: 40px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+}
