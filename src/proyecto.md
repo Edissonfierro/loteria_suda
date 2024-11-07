@@ -55,6 +55,7 @@ const Lottery: React.FC = () => {
 
 export default Lottery;
 
+
 Estructura:
 
 
@@ -77,4 +78,54 @@ Cumple al ser el primer componente React que maneja eventos y estado, y utiliza 
 ¿Por qué es la mejor forma de implementarlo?
 Es modular y reutilizable, utilizando el estado de React para una interfaz dinámica y eficiente, siguiendo buenas prácticas para crear aplicaciones escalables
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+## 2. Crear archivos con múltiples componentes
+
+### NumberSelector
+Permite al usuario seleccionar una fila de números.
+
+### DrawButton
+Realiza el sorteo al hacer clic.
+
+### ResultDisplay
+Muestra los resultados del sorteo.
+
+### Lottery
+Gestiona el estado y lógica del juego. 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3  Añadir marcado a JavaScript con JSX
+
+JSX (JavaScript XML) es una extensión de la sintaxis de JavaScript que permite escribir HTML dentro del código JavaScript. En React, JSX es utilizado para crear y estructurar la interfaz de usuario de manera declarativa y legible.
+
+Cuando se dice "Usar JSX para mostrar la interfaz de selección de números y los resultados del sorteo", se refiere a crear la parte visual de la aplicación donde el usuario puede interactuar con los elementos de la lotería, como las filas de números, el botón para realizar el sorteo y los resultados.
+
+## ¿Qué hace este fragmento de código?
+
+Este fragmento de código en JSX realiza lo siguiente:
+
+1. **Seleccionar una fila de números**: Se muestran botones con las filas de números que el usuario puede seleccionar. Esta interacción se maneja en el componente `NumberSelector`.
+2. **Realizar un sorteo**: El componente `DrawButton` muestra un botón que, al hacer clic, selecciona aleatoriamente una fila ganadora de entre las filas disponibles.
+3. **Mostrar los resultados**: El componente `ResultDisplay` muestra si la fila seleccionada por el usuario coincide con la fila ganadora y presenta los resultados.
+
+## ¿Cómo cumple con el requisito de la habilidad?
+
+El código cumple con el requisito de "Añadir marcado a JavaScript con JSX" porque:
+
+- Usa **JSX** para estructurar el HTML dentro de los componentes de React.
+- Muestra la **interfaz de usuario** interactiva (selección de números, sorteo y resultados).
+- Maneja eventos como clics de usuario para actualizar la interfaz dinámicamente.
+
+## ¿Por qué es la mejor forma de implementarlo?
+
+Es la mejor forma de implementarlo por las siguientes razones:
+
+1. **Simplicidad y claridad**: JSX permite escribir HTML directamente dentro de JavaScript, lo que facilita la comprensión de la estructura de la interfaz.
+2. **Integración con React**: JSX es la forma recomendada para crear interfaces en React, lo que permite vincular fácilmente los datos del estado con la interfaz.
+3. **Interactividad**: JSX, junto con el estado de React, facilita manejar la interacción del usuario y actualizar la interfaz de manera eficiente.
+4. **Escalabilidad**: JSX permite crear componentes reutilizables y modulares, facilitando la expansión de la aplicación.
+
+--------------------------------------------------------------------------------------------------------------

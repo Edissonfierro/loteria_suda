@@ -1,36 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin: 0;
+  background-image: url('https://img.pikbest.com/backgrounds/20191104/color-welfare-lottery-background_1905862.jpg!sw800');
+  background-size: cover;
+  background-position: center; 
+}
+
+
 .number-grid {
   display: flex;
-  flex-direction: column; /* Mantenemos la dirección vertical */
+  flex-direction: column;
   gap: 10px;
-  margin: 20px; /* Espacio alrededor del grid */
-  padding: 10px; /* Padding interno para el grid */
-  border: 2px solid #4CAF50; /* Borde para el grid */
-  border-radius: 8px; /* Bordes redondeados */
-  background-color: #f9f9f9; /* Color de fondo */
-  max-width: 400px; /* Ancho máximo para el grid */
-  margin-left: auto; /* Centrar el grid horizontalmente */
-  margin-right: auto; /* Centrar el grid horizontalmente */
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid #4CAF50;
+  border-radius: 8px;
+  background-color: rgba(249, 249, 249, 0.8); 
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .number-row {
   display: flex;
-  justify-content: center; /* Centrar los botones horizontalmente */
+  justify-content: center;
 }
 
 .number-row button {
-  
-  padding: 15px; /* Aumentar el padding para botones más grandes */
-  font-size: 18px; /* Aumentar el tamaño de fuente */
+  padding: 15px;
+  font-size: 16px;
   cursor: pointer;
-  background-color: #4CAF50;
+  background-color: #3b97aa;
   background-position: center;
-  color: white;
+  color: rgb(8, 8, 8);
   border: none;
   border-radius: 5px;
-  width: 100%; /* Hacer el botón ocupar todo el ancho */
-  transition: background-color 0.3s; /* Efecto de transición */
+  width: 100%;
+  transition: background-color 0.3s;
 }
 
 .number-row button:hover {
-  background-color: #45a049;
+  background-color: #8f9510;
 }
