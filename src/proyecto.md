@@ -58,7 +58,7 @@ export default Lottery;
 Estructura:
 
 
-Selección de fila:
+Selección de fila::
 
 Se muestran filas de números que el usuario puede seleccionar a través del componente NumberSelector.
 Realización del sorteo:
